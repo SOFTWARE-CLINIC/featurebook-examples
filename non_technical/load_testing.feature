@@ -1,5 +1,6 @@
 Feature: Load Testing
-  Scanario: New Account SLA
+
+  Scenario: New Account SLA
     Given there are 100,000 users registered on the system
     When I create a new account
     Then I should be taken to my dashboard within 5ms
