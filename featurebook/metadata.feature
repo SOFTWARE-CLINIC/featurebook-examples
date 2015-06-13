@@ -11,7 +11,7 @@ Feature: Metadata
     Given a directory with Gherkin source files
     And  "featurebook.json" descriptor
 
-  @TBD @Due_date_20-07_2015
+  @TBD @Due_date_20-07-2015
   Scenario: Specification's title defaults to the titleized directory name
 
   @US_128
