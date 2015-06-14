@@ -1,4 +1,23 @@
 {
   "title": "My Sample Specification",
-  "version": "1.0"
+  "version": "1.0",
+  "authors" : [
+    {
+      "firstName": "Henryk",
+      "lastName": "Sienkiewicz",
+      "email": "hsienkiewicz@gmail.com"
+    },
+    {
+      "firstName": "Juliusz",
+      "lastName": "Slowacki",
+      "email": "jslowacki@gmail.com"
+    }
+  ],
+  "contributors": [
+    {
+      "firstName": "Eliza",
+      "lastName": "Orzeszkowa",
+      "email": "eorzeszkowa@gmail.com"
+    }  
+  ]
 }
