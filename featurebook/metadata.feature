@@ -1,11 +1,8 @@
 @Functional
 Feature: Metadata
 
-  *In order to* describe my specification
-
-  *As a* writer
-
-  *I want to* be able to provide some metadata about my work
+  **In order to** describe my specification **as a** writer
+  **I want to** be able to provide some metadata about my work.
 
   Background:
     Given a directory with Gherkin source files

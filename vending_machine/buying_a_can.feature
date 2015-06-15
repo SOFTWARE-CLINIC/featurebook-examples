@@ -1,11 +1,8 @@
 @UC_123
 Feature: Buying a can
 
-**In order to** quench my thirst
-
-**As a** thirsty bastard
-
-**I want to** get a drink from the vending machine
+  **In order to** quench my thirst **as a** thirsty bastard
+  **I want to** get a drink from the vending machine.
 
   Background:
     Given a machine

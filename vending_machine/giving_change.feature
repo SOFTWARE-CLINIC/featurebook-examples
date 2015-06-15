@@ -1,10 +1,8 @@
 Feature: Giving change
 
-  In order to keep what's mine back in the pocket
-
-  As a thirsty bastard
-
-  I want to get change after buying a drink
+  **In order** to keep what's mine back in the pocket
+  **as a** thirsty bastard
+  **I want to** get change after buying a drink.
 
   ![Money](/assets/images/giving_change_money.jpg)
 
