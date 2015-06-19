@@ -2,9 +2,31 @@
   "title": "Time Tracking",
   "authors": [
     {
-      "firstName": "X",
-      "lastName": "Y",
-      "email": "x@email.com"
+      "firstName": "Richard",
+      "lastName": "Feynman",
+      "email": "rfeynman@email.com"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Faraday",
+      "email": "mfaraday@email.com"
+    },
+    {
+      "firstName": "Werner",
+      "lastName": "Heisenberg",
+      "email": "wheisenberg@gmail.com"
+    }
+  ],
+  "contributors": [
+    {
+      "firstName": "Isaac",
+      "lastName": "Newton",
+      "email": "inewton@gmail.com"
+    },
+    {
+      "firstName": "Nikola",
+      "lastName": "Tesla",
+      "email": "ntesla@gmail.com"
     }
   ]
 }
