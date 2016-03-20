@@ -1,6 +1,6 @@
-Feature: Time Tracking
+Feature: Time tracking
 
-**In order** to keep a record of my time As an employee I can create, view, update, and delete logged tasks
+**In order** to keep a record of my time as an employee I can create, view, update, and delete logged tasks.
 
   Background:
     Given I am signed in

@@ -1,13 +1,11 @@
-Feature: Admin Authentication
+Feature: Admin authentication
 
-  In order to administer the site
-  As an admin
-  I want non-admins to be prevented from administration functionality.
+  In order to administer the site as an admin I want non-admins to be prevented from administration functionality.
 
-  Scenario: Try to Add a New Employee
+  Scenario: Try to add a new employee
     Given I am signed in as a non-admin
     Then I should not be able to access the new employee page
 
-  Scenario: Try to Add a New Project
+  Scenario: Try to add a new project
     Given I am signed in as a non-admin
     Then I should not be able to access the new project page

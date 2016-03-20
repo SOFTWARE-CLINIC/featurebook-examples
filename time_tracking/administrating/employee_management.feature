@@ -1,33 +1,35 @@
-Feature: Employee Management
+Feature: Employee management
 
-  In order to allow employees to track time
-  As an admin
-  I can create, view, and update employees.
+  In order to allow employees to track time as an admin I can create, view, and update employees.
 
-  Background: Signed in as an admin
+  Background:
     Given I am signed in as an admin
 
-  Scenario: Add a New Employee
+  @Implemented
+  Scenario: Add a new employee
     When I go to the new employee page
     And I provide all the required employee information
-    Then I should be able to add an employee
+    Then I should be able to add the employee
 
-  Scenario: Try to Add an Invalid Employee
+  @Implemented
+  Scenario: Try to add an invalid employee
     When I go to the new employee page
     But I don't provide all the required employee information
-    Then I should not be able to add an employee
+    Then I should not be able to add the employee
 
-  Scenario: Update an Existing Employee
+  @NotImplemented
+  Scenario: Update an existing employee
     When I edit an employee
     And I provide all the required employee information
     Then I should be able to update the employee
 
-  Scenario: Try to Update an Invalid Employee
+  Scenario: Try to update an invalid employee
     When I edit an employee
     But I don't provide all the required employee information
     Then I should not be able to update the employee
 
-  Scenario: View Existing Employees
-    And I have added some employees
+  Scenario: View an existing employees
+    Given I have added some employees
     When I go to the employees page
     Then I should see every employee
+
