@@ -1,5 +1,3 @@
-Summary
-=======
+# Time Tracking
 
-
-**Zachodni** wiatr spienione goni fale
+Best time tracking system for a small business. A simple online timer with a powerful timesheet calculator.
