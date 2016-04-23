@@ -1,4 +1,7 @@
 Feature: Eating cucumbers
+
+  Read also the [hello world](feature://hello_world.feature) feature.
+
   Scenario Outline: Eat
     Given there are <start> cucumbers
     When I eat <eat> cucumbers
